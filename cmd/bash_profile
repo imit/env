@@ -1,0 +1,26 @@
+PATH="/usr/local/bin:$PATH"
+
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+PATH="/usr/local/share/npm/bin:$PATH"
+
+
+# Shiny Colors
+export CLICOLOR=1
+export LSCOLORS=ExGxcxdxCxegedabagacad
+alias l='ls -lAFh'
+#rgrep() { mdfind -0 -onlyin "$1" "$2" | xargs -0 grep --color "$2" }
+#rfind() { mdfind -onlyin "$1" "$2" }
+
+# Aliases
+alias lime='sublime'
+alias rs='rails s'
+alias rc='rails c'
+alias rdb='rake db:migrate'
+alias roll='rake db:rollback'
+alias bn='bundle'
+alias gs='git status'
+alias ga='git add .'
+alias gcm='git commit -am'
+alias gp='git pull'
