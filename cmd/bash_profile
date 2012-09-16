@@ -8,7 +8,7 @@ PATH="/usr/local/share/npm/bin:$PATH"
 
 # Shiny Colors
 export CLICOLOR=1
-export LSCOLORS=ExGxcxdxCxegedabagacad
+export LSCOLORS=gxfxcxdxbxegedabagacad
 alias l='ls -lAFh'
 #rgrep() { mdfind -0 -onlyin "$1" "$2" | xargs -0 grep --color "$2" }
 #rfind() { mdfind -onlyin "$1" "$2" }
